@@ -15,6 +15,9 @@
 		8836846A1CF55645006F8BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883684681CF55645006F8BE9 /* LaunchScreen.storyboard */; };
 		883684751CF55645006F8BE9 /* UIDynamic_PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883684741CF55645006F8BE9 /* UIDynamic_PracticeTests.m */; };
 		883684801CF55645006F8BE9 /* UIDynamic_PracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8836847F1CF55645006F8BE9 /* UIDynamic_PracticeUITests.m */; };
+		8836848F1CF55666006F8BE9 /* AFBlinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 8836848E1CF55666006F8BE9 /* AFBlinds.m */; };
+		883684911CF56D8C006F8BE9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 883684901CF56D8C006F8BE9 /* background.png */; };
+		883684971CF5802E006F8BE9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883684961CF5802E006F8BE9 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		8836847B1CF55645006F8BE9 /* UIDynamic PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIDynamic PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8836847F1CF55645006F8BE9 /* UIDynamic_PracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDynamic_PracticeUITests.m; sourceTree = "<group>"; };
 		883684811CF55645006F8BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8836848D1CF55666006F8BE9 /* AFBlinds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBlinds.h; sourceTree = "<group>"; };
+		8836848E1CF55666006F8BE9 /* AFBlinds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBlinds.m; sourceTree = "<group>"; };
+		883684901CF56D8C006F8BE9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		883684951CF5802E006F8BE9 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		883684961CF5802E006F8BE9 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				8836845E1CF55645006F8BE9 /* AppDelegate.m */,
 				883684601CF55645006F8BE9 /* ViewController.h */,
 				883684611CF55645006F8BE9 /* ViewController.m */,
+				883684951CF5802E006F8BE9 /* DetailsViewController.h */,
+				883684961CF5802E006F8BE9 /* DetailsViewController.m */,
+				8836848D1CF55666006F8BE9 /* AFBlinds.h */,
+				8836848E1CF55666006F8BE9 /* AFBlinds.m */,
 				883684631CF55645006F8BE9 /* Main.storyboard */,
 				883684661CF55645006F8BE9 /* Assets.xcassets */,
 				883684681CF55645006F8BE9 /* LaunchScreen.storyboard */,
@@ -117,6 +129,7 @@
 		8836845A1CF55645006F8BE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				883684901CF56D8C006F8BE9 /* background.png */,
 				8836845B1CF55645006F8BE9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8836846A1CF55645006F8BE9 /* LaunchScreen.storyboard in Resources */,
+				883684911CF56D8C006F8BE9 /* background.png in Resources */,
 				883684671CF55645006F8BE9 /* Assets.xcassets in Resources */,
 				883684651CF55645006F8BE9 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8836848F1CF55666006F8BE9 /* AFBlinds.m in Sources */,
+				883684971CF5802E006F8BE9 /* DetailsViewController.m in Sources */,
 				883684621CF55645006F8BE9 /* ViewController.m in Sources */,
 				8836845F1CF55645006F8BE9 /* AppDelegate.m in Sources */,
 				8836845C1CF55645006F8BE9 /* main.m in Sources */,
