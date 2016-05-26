@@ -2,7 +2,7 @@
 Blinds Animation Using UIKit Dynamics in Swift
 
 #Description
-AFBlinds is a simple blinds animation implementing in Swift using the UIKit Dynamics Framework.
+AFBlinds is a simple blinds animation implementing in Swift using the UIKit Dynamics Framework. This version of objective-c based on swift version by mohamad azam https://github.com/azamsharp/AZBlinds.
 
 #Usage
 ```
